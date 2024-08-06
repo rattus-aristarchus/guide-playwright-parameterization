@@ -1,0 +1,20 @@
+{
+  "name": "playwright-parameterization",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "playwright test",
+    "test_loop": "playwright test test/loop.test.ts",
+    "test_parameterized": "playwright test test/parameterized.test.ts",
+    "test_allure": "playwright test test/allure.test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "@playwright/test": "^1.30.0",
+    "allure-playwright": "3.0.0-beta.7",
+    "allure-js-commons": "3.0.0-beta.7"
+  }
+}
